@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
-        <NavLink to="/" className="btn btn-ghost text-xl">Winter Clothing Donation</NavLink>
+        <NavLink to="/" className="btn btn-ghost text-[1rem] lg:text-[2rem] text-wrap">Winter Clothing Donation</NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
