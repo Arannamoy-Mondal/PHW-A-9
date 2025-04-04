@@ -6,7 +6,7 @@ import { NavLink, useLoaderData } from 'react-router-dom';
 const Slider = () => {
     const {data}=useContext(AuthContext)
     return (
-        <div className='w-[90%] px-[20%] m-auto my-[25px] border-[5px] border-solid border-black'>
+        <div className='w-[90%] px-[2%] m-auto my-[25px] border-[5px] border-solid border-black'>
             <div className="carousel w-full">
                 {
                     data.map(el =>
