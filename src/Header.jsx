@@ -44,7 +44,7 @@ const Header = () => {
               <ul className="bg-base-100 rounded-t-none p-2">
                 <li><NavLink to="/" className={"btn btn-primary btn-outline m-[5px]"}>Home</NavLink></li>
                 <li><NavLink to="/donation-campaigns" className={"btn btn-primary btn-outline m-[5px]"}>Donation Campaigns</NavLink></li>
-                <li><NavLink to="/profile " className={"btn btn-primary btn-outline m-[5px]"}>Dashboard</NavLink></li>
+                <li><NavLink to="/profile" className={"btn btn-primary btn-outline m-[5px]"}>Dashboard</NavLink></li>
                 <li> <NavLink to="/how-to-help-us" className={"btn btn-primary btn-outline m-[5px]"}>How to help us?</NavLink></li>
                 <li><button className={"btn btn-primary btn-outline m-[5px]"} onClick={logOut}>Logout</button></li>
               </ul>

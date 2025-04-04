@@ -54,8 +54,8 @@ const Login = () => {
   }
   return (
     <div >
-      <div className='flex justify-center'><h1 className='text-center text-wrap btn btn-warning text-[1rem]'>Don't press Enter or Keyboard Keys for login. Use Login button. Just click "Login" by mouse or touchpad.</h1></div>
-      <div className='flex justify-center mt-[25px]'>
+      <div className='flex flex-wrap justify-center btn btn-warning'><h1 className='text-center w-[100%] text-wrap lg:text-[1rem]'>Don't press Enter or Keyboard Keys for login. Use Login button. Just click "Login" by mouse or touchpad.</h1></div>
+      <div className='flex flex-wrap justify-center mt-[25px]'>
         <form class="fieldset w-xs bg-base-200 border border-base-300 p-4 rounded-box" onSubmit={signin}>
           <label class="fieldset-label text-[1.25rem] text-black font-bold" >Email</label>
           <input type="email" class="input" placeholder="Email" ref={emailRef} name="email" required />
