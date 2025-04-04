@@ -4,7 +4,7 @@ const HowWeWorks = () => {
     return (
         <div className='bg-[#33acff] my-[25px] py-[55px] lg:my-[75px]'>
             <h1 className='text-center text-[2rem] text-wrap text-black font-black'>How We Works?</h1>
-            <div className='flex justify-center'>
+            <div className='mx-[50%] flex flex-wrap'>
                 <ul className="timeline timeline-vertical">
                     <li>
                         <div className="timeline-middle">
@@ -36,7 +36,7 @@ const HowWeWorks = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="timeline-end timeline-box text-1xl font-bold">We Collect Donated Colthes From Donors</div>
+                        <div className="timeline-start timeline-box text-1xl font-bold">We Collect Donated Colthes From Donors</div>
                         <hr />
                     </li>
                     <li>
