@@ -5,7 +5,7 @@ const HowWeWorks = () => {
         <div className='bg-[#33acff] my-[25px] py-[55px] lg:my-[75px]'>
             <h1 className='text-center text-[2rem] text-wrap text-black font-black'>How We Works?</h1>
             <div className='flex justify-center'>
-                <ul className="timeline">
+                <ul className="timeline timeline-vertical">
                     <li>
                         <div className="timeline-middle">
                             <svg
