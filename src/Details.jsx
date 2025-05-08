@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { NavLink, useLoaderData, useParams } from 'react-router-dom';
+import React, { useContext} from 'react';
+import { NavLink,useParams } from 'react-router-dom';
 import { AuthContext } from './Authprovider';
 import Loading from './Loading'
 const Details = () => {
     const param = useParams()
-    const { loading,data } = useContext(AuthContext)
+    const {data } = useContext(AuthContext)
     const event=data.find(el=>(el.id==param.id))
     return (
         
