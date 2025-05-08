@@ -15,8 +15,8 @@ const Login = () => {
     if (email) {
       forgetPassword(email)
       setOk("Check your email.");
-      Navigate("/")
-      return
+      // Navigate("/")
+      // return
     }
     else setEr1("Enter correct email")
 

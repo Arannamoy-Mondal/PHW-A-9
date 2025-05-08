@@ -2,8 +2,6 @@ import React, { createContext, useEffect, useState } from 'react';
 export const AuthContext = createContext(null)
 import { createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateEmail, updatePassword, updateProfile } from "firebase/auth";
 import auth from './Firebase.config';
-import { redirect, useNavigate } from 'react-router-dom';
-import { FaLeaf } from 'react-icons/fa';
 const Authprovider = ({ children }) => {
     const [user, setUser] = useState(null)
     const [loading, setLoading] = useState(true)
@@ -112,7 +110,7 @@ const Authprovider = ({ children }) => {
     const forgetPassword = (email) => {
         setEr(null)
         setOk(null)
-        setLoading(true)
+        // setLoading(true)
         sendPasswordResetEmail(auth, email)
             .then(() => {
                 // Password reset email sent!
